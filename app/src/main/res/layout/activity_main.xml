@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="25dp"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tv_rezult"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#BA0A0A"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="Get Result"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/ed_num_1"
+        android:hint="@string/num_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/ed_num_2"
+        android:hint="@string/num_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"/>
+
+
+    <Button
+        android:id="@+id/bt_plus"
+        android:layout_width="match_parent"
+        android:layout_weight="1dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:background="#675858"
+        android:textSize="60dp" />
+    <Button
+        android:id="@+id/bt_multy"
+        android:layout_width="match_parent"
+        android:layout_weight="1dp"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textSize="60dp" />
+        />
+
+    <Button
+        android:id="@+id/bt_minc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1dp"
+        android:gravity="center"
+        android:text="-"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/bt_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1dp"
+        android:text="/"
+        android:textSize="60dp" />
+
+
+
+</LinearLayout>
